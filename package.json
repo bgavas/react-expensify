@@ -13,10 +13,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.22.1",
     "normalize.css": "^8.0.0",
     "react": "^16.3.2",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dates": "^16.7.0",
     "react-dom": "^16.3.2",
     "react-modal": "^3.4.4",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "uuid": "^3.2.1",
     "validator": "^10.1.0"
   },
   "devDependencies": {
@@ -24,6 +31,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
